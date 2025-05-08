@@ -1,3 +1,42 @@
+PROJECT TITLE:
+JUIT TradeNet Campus Management System
+
+PROJECT DESCRIPTION:
+TradeNet is a full-stack web application designed to help university students buy or sell items within their campus.
+The platform allows users to post product listings, chat in real-time, manage wishlist, and filteration within a secure, student-specific environment.
+It aims to reduce waste, save money, and encourage sustainable resource sharing among the student community.
+
+
+
+FOLDER STRUCTURE
+APP/
+├── my-node-app/
+│   ├── index.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── node_modules/
+│       ├── .bin/
+│       │   ├── mime
+│       │   ├── mime.cmd
+│       │   ├── mime.ps1
+│       │   ├── mkdirp
+│       │   ├── mkdirp.cmd
+│       │   ├── mkdirp.ps1
+│       │   └── ...
+│       └── @mongodb-js/
+│           └── saslprep/
+│               ├── LICENSE
+│               ├── package.json
+│               ├── readme.md
+│               └── dist/
+│                   ├── browser.js
+│                   ├── code-points-data.js
+│                   └── ...
+
+
+
+
+
 # TradeNet – A Campus Marketplace for Students
 
 TradeNet is a full-stack web application designed to help university students buy, sell, or rent items within their campus.
