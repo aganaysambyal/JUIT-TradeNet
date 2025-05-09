@@ -7,36 +7,6 @@ The platform allows users to post product listings, chat in real-time, manage wi
 It aims to reduce waste, save money, and encourage sustainable resource sharing among the student community.
 
 
-
-FOLDER STRUCTURE
-APP/
-├── my-node-app/
-│   ├── index.js
-│   ├── package.json
-│   ├── package-lock.json
-│   └── node_modules/
-│       ├── .bin/
-│       │   ├── mime
-│       │   ├── mime.cmd
-│       │   ├── mime.ps1
-│       │   ├── mkdirp
-│       │   ├── mkdirp.cmd
-│       │   ├── mkdirp.ps1
-│       │   └── ...
-│       └── @mongodb-js/
-│           └── saslprep/
-│               ├── LICENSE
-│               ├── package.json
-│               ├── readme.md
-│               └── dist/
-│                   ├── browser.js
-│                   ├── code-points-data.js
-│                   └── ...
-
-
-
-
-
 # TradeNet – A Campus Marketplace for Students
 
 TradeNet is a full-stack web application designed to help university students buy, sell, or rent items within their campus.
@@ -61,12 +31,20 @@ It solves the common problem of resource wastage by providing a secure and user-
 **Authentication:** JWT (JSON Web Tokens)  
 **Real-time Chat:** Socket.io  
 
-## 📌 Installation Instructions
 
-1. Clone the repository:
+
+Video:
+[https://drive.google.com/file/d/1dyL8W_tMtu_abc2mJtvYTiKUn90Fz_YH/view?usp=drive_link
+](https://drive.google.com/file/d/1dyL8W_tMtu_abc2mJtvYTiKUn90Fz_YH/view?usp=sharing)
+## 📌 Installation Instructions
+Clone the repository:
 ```bash
 git clone https://github.com/yourusername/tradenet.git
 cd tradenet
 npm install
 cd client && npm install
 npm run dev
+
+
+
+
