@@ -38,7 +38,7 @@ const io = new Server(httpServer, {
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // MongoDB Connection
-mongoose.connect("mongodb://127.0.0.1:27017/test", {
+mongoose.connect("mongodb+srv://aganaysambyal:123@cluster1.itbg0z4.mongodb.net/", {
   useNewUrlParser: true,//ensures the connection string is passed successfully
   useUnifiedTopology: true,//Uses the new Server Discovery and Monitoring engine for better connection handling
 })
